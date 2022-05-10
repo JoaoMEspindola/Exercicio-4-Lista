@@ -19,7 +19,7 @@ Encontrar a máxima soma de um conjunto de elementos pode ser resumida em encont
 Aqui podemos ver um vetor com números positivos e negativos e sua máxima soma se encontra entre a 3º e 5º posição, com o resultado de 35.
 </p>
 
-<img src="imgs/exemploMaxSoma.png" width="500" height="56"><br>
+<img src="imgs/exemploMaxSoma.png"><br>
 
 <p align = "justify">
 Para o armazenamento dos números na lista, utilizei um <code><em>'for'</em></code> que percorre todo o vetor de tamanho estático <strong>MAXTAM</strong> e utilizando a função <code>rand()</code> é colocado números aleatórios dentro de cada posição do vetor. Para que a lista não possua apenas números positivos, é necessário fazer uma subtração que torne aquele número negativo. No código abaixo é demonstrado como inserir números de -99 a 99 utilizando <code>rand()</code>.
